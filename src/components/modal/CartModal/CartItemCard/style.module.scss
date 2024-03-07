@@ -1,0 +1,35 @@
+.boxCartModal{
+    display: flex;
+    align-items: center;
+    gap: 0.875rem;
+    padding: 0.875rem;
+    margin-bottom: 0.9375rem;
+    
+    overflow-y: auto;
+    
+
+    img{
+        height: 5rem;
+        background: var(--grey-2);
+        border-radius: 0.3125rem;
+    }
+
+    button{
+        background: transparent;
+        color: var(--button-default);
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.containerDescription{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.descriptionModal{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

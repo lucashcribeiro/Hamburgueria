@@ -1,0 +1,10 @@
+.productList {
+  overflow-y: hidden;
+  display: flex;
+  flex-wrap: nowrap;
+
+  @media (min-width: 764px) {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}

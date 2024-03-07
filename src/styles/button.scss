@@ -1,0 +1,42 @@
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0.5rem;
+    background: var(--button-default);
+    color: var(--grey-1);
+    
+
+    font-family: var(--font-primary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.21rem;
+
+    transition: 0.5s;
+
+    &.small{
+        padding-inline: 0.5rem;
+        width: 6.625rem;
+        height: 2.5rem;
+        
+    }
+
+    &.large{
+        padding-inline: 1rem;
+        height: 3.75rem;
+    }
+
+    &.full{
+        width:100%;
+        
+    }
+
+    &:hover{
+        filter: brightness(1.2);
+        background: var(--color-primary);
+        color: var(--grey-1);
+        
+    }
+
+}
